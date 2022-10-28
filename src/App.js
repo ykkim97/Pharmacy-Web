@@ -1,13 +1,14 @@
 import './App.css';
 import GetData from './components/GetData';
 import Map from './components/Map';
+import Templete from './components/Templete';
 
 function App() {
   return (
-    <div className="App">
+    <Templete className="App">
       <GetData />
       <Map />
-    </div>
+    </Templete>
   );
 }
 
